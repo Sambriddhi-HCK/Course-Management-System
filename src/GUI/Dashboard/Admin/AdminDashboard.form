@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.Dashboard.Admin.AdminDashboard">
+  <grid id="27dc6" binding="pnlMain" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1005" height="445"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="45d8d" binding="pnlNorth" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="a88e5" binding="InrTop" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="a8555" binding="title" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="fd86" binding="pnlLogout" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1118482"/>
+                      <enabled value="true"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="d0822" class="javax.swing.JLabel" binding="logout">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="20" height="20"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <icon value="logout.png"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <hspacer id="2ae4c">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="85fa7" class="javax.swing.JLabel" binding="pageTitle">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Geneva" size="20" style="1"/>
+                      <text value="Course Management System"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="6a2b2" binding="pnlIcon" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="true"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="deaf1" class="javax.swing.JLabel" binding="Icon">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <icon value="logo1.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="3db53" binding="pnlCenter" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-13947600"/>
+          <foreground color="-2104859"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="750a2" binding="InrNorth" layout-manager="FlowLayout" hgap="40" vgap="5" flow-align="1">
+            <constraints border-constraint="North"/>
+            <properties>
+              <background color="-11774367"/>
+              <enabled value="true"/>
+              <foreground color="-2104859"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="45bf8" class="javax.swing.JLabel" binding="Students">
+                <constraints/>
+                <properties>
+                  <foreground color="-1720700"/>
+                  <text value="Students"/>
+                </properties>
+              </component>
+              <component id="cc8b6" class="javax.swing.JLabel" binding="Tutors">
+                <constraints/>
+                <properties>
+                  <foreground color="-2241051"/>
+                  <text value="Tutors"/>
+                </properties>
+              </component>
+              <component id="98b45" class="javax.swing.JLabel" binding="Courses">
+                <constraints/>
+                <properties>
+                  <foreground color="-5650025"/>
+                  <text value="Courses"/>
+                </properties>
+              </component>
+              <component id="e7d33" class="javax.swing.JLabel" binding="Modules">
+                <constraints/>
+                <properties>
+                  <foreground color="-6701889"/>
+                  <text value="Modules"/>
+                </properties>
+              </component>
+              <component id="c4e6c" class="javax.swing.JLabel" binding="Report">
+                <constraints/>
+                <properties>
+                  <foreground color="-4868379"/>
+                  <text value="Report"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="a79e4" binding="pnlCard" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="966f5" binding="pnlStudent" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <card name="Card1"/>
+                </constraints>
+                <properties>
+                  <background color="-1720700"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="a2ebb" binding="pnlStdCRUD" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="South"/>
+                    <properties>
+                      <background color="-1720700"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="28cdb" binding="pnlStdInfo" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <background color="-11774367"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="4bc2" class="javax.swing.JTextArea" binding="pnlStudentInfo">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="50"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-11774367"/>
+                              <editable value="false"/>
+                              <foreground color="-1118482"/>
+                              <text value="Note:&#10;No Option Regarding Changes for Students"/>
+                            </properties>
+                          </component>
+                          <grid id="9155f" binding="space" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="10" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-11774367"/>
+                            </properties>
+                            <border type="none"/>
+                            <children/>
+                          </grid>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="43390" binding="pnlStdCenter" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-1720700"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="5f0d1" binding="pnlTutor" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <card name="Card2"/>
+                </constraints>
+                <properties>
+                  <background color="-2241051"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="2e465" binding="pnlTutorCRUD" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="South"/>
+                    <properties>
+                      <background color="-11774367"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="68f43" binding="pnlTutorButtons" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                        <constraints border-constraint="East"/>
+                        <properties>
+                          <background color="-11774367"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="1b142" class="javax.swing.JButton" binding="btnAddTutor">
+                            <constraints/>
+                            <properties>
+                              <text value="Add"/>
+                              <toolTipText value="Add a Tutor"/>
+                            </properties>
+                          </component>
+                          <component id="cc281" class="javax.swing.JButton" binding="btnRemoveTutor">
+                            <constraints/>
+                            <properties>
+                              <text value="Remove"/>
+                              <toolTipText value="Remove tutor from a Module"/>
+                            </properties>
+                          </component>
+                          <component id="a6428" class="javax.swing.JButton" binding="btnDeleteTutor">
+                            <constraints/>
+                            <properties>
+                              <text value="Delete"/>
+                              <toolTipText value="Permanently Delete a Tutor"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="9307a" binding="pnlTInfo" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <background color="-11774367"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="c1b42" class="javax.swing.JTextArea" binding="pnlTutorPrompt">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="50"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-11774367"/>
+                              <editable value="false"/>
+                              <foreground color="-1118482"/>
+                              <text value="Note:&#10;Select a Tutor to Remove from Course or Delete Permanently"/>
+                            </properties>
+                          </component>
+                          <grid id="62ce5" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="10" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-11774367"/>
+                            </properties>
+                            <border type="none"/>
+                            <children/>
+                          </grid>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="afafe" binding="pnlTutorCenter" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-2241051"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="cf456" binding="pnlCourse" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <card name="Card3"/>
+                </constraints>
+                <properties>
+                  <background color="-5650025"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="71d63" binding="pnlCourseCenter" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-5650025"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="234ec" binding="pnlCourseCRUD" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="South"/>
+                    <properties>
+                      <background color="-11774367"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="e0e5a" binding="pnlCInfo" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <background color="-11774367"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="aa45c" class="javax.swing.JTextArea" binding="pnlCoursesPrompt">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="50"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-11774367"/>
+                              <editable value="false"/>
+                              <foreground color="-1118482"/>
+                              <text value="Note:&#10;Select a Tutor to Remove from Course or Delete Permanently"/>
+                            </properties>
+                          </component>
+                          <grid id="8978" binding="pnlCSpace" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="10" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-11774367"/>
+                            </properties>
+                            <border type="none"/>
+                            <children/>
+                          </grid>
+                        </children>
+                      </grid>
+                      <grid id="9ef93" binding="pnlCourseButtons" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                        <constraints border-constraint="East"/>
+                        <properties>
+                          <background color="-11774367"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="8889d" class="javax.swing.JButton" binding="btnAddCourses">
+                            <constraints/>
+                            <properties>
+                              <text value="Add"/>
+                              <toolTipText value="Add a Course"/>
+                            </properties>
+                          </component>
+                          <component id="ae2a1" class="javax.swing.JButton" binding="btnCancelCourses">
+                            <constraints/>
+                            <properties>
+                              <text value="Change"/>
+                              <toolTipText value="Change Availability"/>
+                            </properties>
+                          </component>
+                          <component id="663c0" class="javax.swing.JButton" binding="btnDeleteCourse">
+                            <constraints/>
+                            <properties>
+                              <text value="Delete"/>
+                              <toolTipText value="Permanently Delete a Course"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="316fb" binding="pnlModule" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <card name="Card4"/>
+                </constraints>
+                <properties>
+                  <background color="-6701889"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="5d313" binding="pnlModuleCRUD" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="South"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <grid id="f238f" binding="pnlModuleInfo" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <background color="-11774367"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="16783" class="javax.swing.JTextArea">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="50"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-11774367"/>
+                              <editable value="false"/>
+                              <foreground color="-1118482"/>
+                              <text value="Note:&#10;Select a Tutor to Remove from Course or Delete Permanently"/>
+                            </properties>
+                          </component>
+                          <grid id="42169" binding="pnlModuleSpace" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="10" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-11774367"/>
+                            </properties>
+                            <border type="none"/>
+                            <children/>
+                          </grid>
+                          <grid id="4b8f7" binding="pnlModuleButtons" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-11774367"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="f8472" class="javax.swing.JButton" binding="pnlModuleAdd">
+                                <constraints/>
+                                <properties>
+                                  <text value="Add"/>
+                                  <toolTipText value="Add a Course"/>
+                                </properties>
+                              </component>
+                              <component id="bc239" class="javax.swing.JButton" binding="pnlModuleDelete">
+                                <constraints/>
+                                <properties>
+                                  <text value="Delete"/>
+                                  <toolTipText value="Permanently Delete a Course"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="28a89" binding="pnlModuleCenter" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-7818817"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="cbb1c" binding="pnlReport" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <card name="Card5"/>
+                </constraints>
+                <properties>
+                  <background color="-4868379"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="47892" binding="pnlReportCenter" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-4868379"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="5f4c3" binding="pnlReportCRUD" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints border-constraint="South"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="f37c2" class="javax.swing.JTextField" binding="txtSearchStdReport">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="200" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-2505780"/>
+                        </properties>
+                      </component>
+                      <component id="33296" class="javax.swing.JButton" binding="btnSearch">
+                        <constraints>
+                          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Search"/>
+                        </properties>
+                      </component>
+                      <component id="365d0" class="javax.swing.JLabel" binding="prompt">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Enter Student Id:"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
